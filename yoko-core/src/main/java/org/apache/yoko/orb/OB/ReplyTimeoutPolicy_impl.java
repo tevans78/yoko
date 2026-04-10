@@ -33,7 +33,7 @@ public final class ReplyTimeoutPolicy_impl extends LocalObject implements ReplyT
     }
 
     public int policy_type() {
-        return REQUEST_TIMEOUT_POLICY_ID.value;
+        return REPLY_TIMEOUT_POLICY_ID.value;
     }
 
     public Policy copy() {
